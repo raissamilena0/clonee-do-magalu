@@ -21,9 +21,7 @@
             color:white;
             background-color: rgba(24, 70, 107, 0.911);
             font-size: 30px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            justify-content: space-between;
-            padding-left: 200px;
+            justify-content: space-around;
 
         }
         .sun{
@@ -63,10 +61,37 @@
         }
         .pqp{ 
             display: flex;
-            font-size: 60px;
+            align-items: center;
 
         }
-        
+        .busca{
+            display: flex;
+            color:white;
+            background-color: rgba(24, 70, 107, 0.911);
+            font-size: 30px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            justify-content: space-between;
+            padding-left: 50px;
+        }
+        .surtei{
+             display: flex;
+            font-size: 60px;
+            
+        }
+        .cep{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cepI{
+            height: 25%;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .icon{
+            font-size: 40px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -74,17 +99,20 @@
         <div class="ladoimagem">
             <img src="lu-logo-avatar.webp">
             <h1 class="magalu">Magalu</h1>
-            <h1 class="sun">Informe seu CEP</h1>
-                
+            
+        </div>
+        <div class="cep">
+            <h1 style="padding-right: 10px;" class="sun">Informe seu CEP</h1>
+            <input class="cepI"/>
         </div>
         <div class="pqp">
-            
+            <a class="icon">❤️</a>
+            <a class="icon">🛒</a>
+            <a class="icon">👤</a>
         </div>
         
         
     </div>
-
-        
         <table>
             <thead>
                 <tr>
@@ -108,9 +136,7 @@
             <img src="magalu5.avif">
         </div>
        
-        <h1 id="msg">Buscar no Magalu</h1>
-
-        <button onclilck="mostrartexto()">mostrar a mensagem</button>
+        
     </body>
 
 </html>
