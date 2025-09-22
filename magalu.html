@@ -21,34 +21,37 @@
             color:white;
             background-color: rgba(24, 70, 107, 0.911);
             font-size: 30px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            justify-content: space-between;
-            padding-left: 200px;
+            justify-content: space-around;
 
         }
         .sun{
-
             display:flex ;
             font-size: 20px;
             padding-left: 15px;
             align-self: center;
 
+
+         
         }
         .sla{
-            width: 700px;
-            padding-left: 110px;
-            padding-top: 10px;
-            border-radius: 20px;
+         width: 700px;
+         padding-left: 110px;
+         padding-top: 166px;
+         border-radius: 20px;
+        
+       
 
         }
         .ft{
             padding-left: 110px;
-            padding-top: 5px;
+         padding-top: 10px;
         }
         table{
             color:black;
+            font-size: 30px;
+
             background-color: rgb(255, 255, 255);
-            margin-top: -70px;
+            
 
         }
         .magalu{
@@ -58,10 +61,38 @@
         .ladoimagem{
             display: flex;
         }
-        .pqp{
+        .pqp{ 
             display: flex;
-            font-size: 60px;
+            align-items: center;
 
+        }
+        .busca{
+            display: flex;
+            color:white;
+            background-color: rgba(24, 70, 107, 0.911);
+            font-size: 30px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            justify-content: space-between;
+            padding-left: 50px;
+        }
+        .surtei{
+             display: flex;
+            font-size: 60px;
+            
+        }
+        .cep{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cepI{
+            height: 25%;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .icon{
+            font-size: 40px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -70,15 +101,20 @@
         <div class="ladoimagem">
             <img src="lu-logo-avatar.webp">
             <h1 class="magalu">Magalu</h1>
-            <h1 class="sun">Informe seu CEP</h1>
-        </div>
-        <div class="pqp">
             
         </div>
-          
-    </div>
-
+        <div class="cep">
+            <h1 style="padding-right: 10px;" class="sun">Informe seu CEP</h1>
+            <input class="cepI"/>
+        </div>
+        <div class="pqp">
+            <a class="icon">❤️</a>
+            <a class="icon">🛒</a>
+            <a class="icon">👤</a>
+        </div>
         
+        
+    </div>
         <table>
             <thead>
                 <tr>
@@ -101,19 +137,8 @@
         <div class="ft">
             <img src="magalu5.avif">
         </div>
-
-
-
-        <script>
+       
         
-        
-        
+    </body>
 
-
-
-
-
-
-        </script>
-     
 </html>
